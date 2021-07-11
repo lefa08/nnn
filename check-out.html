@@ -1,0 +1,261 @@
+
+<!DOCTYPE html>
+<html lang="en" data-cookies-popup="false">
+<head>
+
+<!-- Meta -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<!-- Title -->
+<title>The Golden She Foundation | CheckOut</title>
+
+<!-- Favicons -->
+<link rel="shortcut icon" href="assets/img/favicon.png">
+<link rel="apple-touch-icon" href="assets/img/favicon_60x60.png">
+<link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon_76x76.png">
+<link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicon_120x120.png">
+<link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicon_152x152.png">
+
+<!-- Google Web Fonts -->
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300,600' rel='stylesheet' type='text/css'>
+
+<!-- CSS Styles -->
+<link rel="stylesheet" href="assets/css/styles.css" />
+
+<!-- CSS Base -->
+<link id="theme" rel="stylesheet" href="assets/css/themes/theme-classic.css" />
+
+</head>
+
+<body>
+
+<!-- Loader -->
+<div id="page-loader"><svg class="loader-1 loader-primary" width="65px" height="65px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg"><circle class="circle" fill="none" stroke-width="3" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg></div>
+<!-- Loader / End -->
+
+<!-- Header -->
+<header id="header" class="absolute fullwidth dark">
+	
+	<!-- Navigation Bar -->
+	<div id="nav-bar">
+
+		<!-- Logo -->
+		<a class="logo-wrapper" href="index.html">
+			<img class="logo logo-light" src="assets/img/logo-dark.png" alt="Okno">
+		</a>
+
+		<nav class="module-group right">
+
+			<!-- Primary Menu -->
+			<div class="module menu left">
+				<ul id="nav-primary" class="nav nav-primary">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="index.html#about">About</a></li>
+					<li><a href="donate.html">Donate</a></li>
+					<li><a href="#">Events</a></li>
+					<li><a href="register.html">Register</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+
+			<div class="module shopping-cart has-popup left">
+				<span class="trigger"><i class="ti-shopping-cart" data-toggle="modal" data-target="#cart"></i></span>
+				<div class="popup cart">
+						
+				</div>
+				<span class="notification total-count"></span>
+			</div>
+
+		</nav>
+
+		<!-- Menu Toggle -->
+		<div class="menu-toggle">
+			<a href="#" data-toggle="mobile-menu" class="mobile-trigger"><span><span></span></span></a>
+		</div>
+
+	</div>
+
+	<!-- Notification Bar -->
+	<div id="notification-bar"></div>
+
+
+</header>
+<!-- Header / End -->
+
+<div id="page-title" class="page-title page-title-1 bg-grey">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<h1> Checkout</h1>
+			</div>
+			<div class="col-md-6">
+				<ol class="breadcrumb">
+					<li><a href="index.html">Home Page</a></li>
+					<li class="active">Buy a Bag And Save a Life</li>
+				</ol>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Content -->
+<div id="content">
+
+	<section>
+
+		<div class="container">
+
+			<div class="row">
+				<div class="col-md-6 col-md-push-3">
+					<!-- Process Steps -->
+					<ul class="process-steps">
+						<li class="step done">Shopping Cart</li>
+						<li class="step active">Checkout</li>
+					</ul>
+				</div>
+			</div>
+			
+			<!-- Cart -->
+ 		<div class="modal-body">
+        	<table class="show-cart table">
+          
+        	</table>
+        </div>
+
+			<!-- Order Total -->
+			<div class="order-total">
+				<h4 class="mb-10">Order Total:</h4>
+				<span class="cost">R<span class="total-cart"></span></span>
+				<span class="text-muted">ex. tax  15%</span>
+			</div>
+
+
+	<div class="modal-footer">
+        <a href="donate.html#buy_a_bag"><button type="button" class="btn btn-primary">Back to Shop</button></a>
+          <a href="#order"> <button type="button" class="btn btn-primary">Order now</button></a>
+
+
+     </div>
+
+
+			<div class="row" id="order">
+				<div class="col-lg-6 col-lg-push-3">
+					<h3 class="mb-40">Billing details:</h3>
+					<form action="#" class="validate-form">
+						<div class="row">
+							<div class="form-group col-sm-6">
+								<input type="text" class="form-control" placeholder="Name" id="Name" name="Name" required>
+							</div>
+							<div class="form-group col-sm-6">
+								<input type="text" class="form-control" placeholder="Surename" id="Surename" name="Surename" required>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="form-group col-sm-6">
+								<select type="text" class="form-control" placeholder="Color" id="Color" name="Color" required>
+									<option value="" disabled selected>Color Of the Bag</option>
+									<option value="Basic">Black</option>
+									<option value="Pro">White</option>
+									<option value="Pro">Gold</option>
+								</select> 
+							</div>
+							<div class="form-group col-sm-6">
+								<input type="number" class="form-control" placeholder="Qty" id="Qty" name="Qty" required>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="form-group col-sm-6">
+								<input type="text" class="form-control" placeholder="Cell Phone No." id="number" name="number" required>
+							</div>
+							<div class="form-group col-sm-6">
+								<label>Your total purchase amount Is: <h4  class="total-cart" style="color:green">0.00</h4></label>
+								
+							</div>
+						</div>
+
+
+
+						<div class="form-group">
+							<input type="email" class="form-control" placeholder="E-mail address" id="Email" name="Email" required>
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Address" id="Address" name="Address" required>
+						</div>
+						<button type="submit" class="btn btn-primary btn-filled btn-block">Place your order <i class="i-before ti-check"></i></button>
+
+						<a href="donate.html#buy_a_bag" class="btn btn-link btn-block"><i class="i-before ti-arrow-left"></i>Go back to the shop</a>
+
+						<!-- <button class="btn btn-link btn-block"><i class="i-before ti-arrow-left"></i>Go back to the shop</button> -->
+					</form>
+				</div>
+			</div>
+
+		</div>
+
+	</section>
+
+</div>
+<!-- Content / End -->
+
+<!-- Footer -->
+<footer id="footer" class="dark bg-dark">
+    
+	<div class="container text-center">
+		<img src="assets/img/logo-sm.png" alt="Okno" class="mb-20">
+		<div class="text-muted mb-30">	Copyright The Golden She Foundation 2021©. All rights reserved.<br> Made with a <i class="fa fa-smile-o" aria-hidden="true"></i> by<a href="batlou.co.za/lefa" class="text-secondary"> Lefa</a></div>
+		
+		<a href="#" class="icon icon-circle icon-google-plus icon-xs"><i class="fa fa-instagram"></i></a>
+	</div>
+
+</footer>
+<!-- Footer / End -->
+
+ <!-- Modal -->
+<div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table class="show-cart table">
+          
+        </table>
+        <div>Total price: R<span class="total-cart"></span></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <a href="check-out.html#order"> <button type="button" class="btn btn-primary">Order now</button></a>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- JS Libraries -->
+<script src="assets/js/jquery-1.12.3.min.js"></script>
+
+<!-- JS Plugins -->
+<script src="assets/js/plugins.js"></script>
+
+<!-- JS Core -->
+<script src="assets/js/core.js"></script>
+<script src="assets/js/shop.js"></script>
+
+<!-- JS Google Map -->
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+
+<!-- Styleswitcher -->
+<script src="assets/styleswitcher/styleswitcher.js"></script>
+
+</body>
+
+</html>
