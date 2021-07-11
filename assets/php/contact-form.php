@@ -11,7 +11,7 @@
 	$subject = trim($_POST['subject']);
 	$message = trim($_POST['message']);
 	
-	$emailTo = 'info@thegoldenshefoundation.com';
+	$emailTo = 'lefa.cloud@hotmail.com';
 	if (empty($subject)) {
 	    $subject = 'Message from your Website.';
 	}
